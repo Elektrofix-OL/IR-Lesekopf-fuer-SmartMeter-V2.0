@@ -27,6 +27,9 @@ Only the requirements were clear:
 I have put a *.bin file here for you, which you can easily transfer to your ESP8266 with an ESP flash program.
 For the pros among you, I also filed my user_config_override for PlatformIO.
 
+# Make hidden button visible
+some buttons are invisible. To make all buttons visible again, go to the script editor and now in front of the commands in the area >W a ";", then all buttons are visible again. You can access the script editor by adding the characters "/s10" to the IP address in the browser.
+
 # License
 Copyright (c) 2023 Elektrofix
 
