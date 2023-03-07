@@ -13,10 +13,12 @@ The 10uF capacitor is switched between 3.3V and GND and is only used to support 
 
 # Housing images
 I changed the case a bit from back then, it's smaller and has the small pushrod on the side to be able to press the reset button. The reset button was modified by me, that is, if it is pressed now, the display switches on and off. I was able to achieve this by making a bridge between the reset button trace and D7 (green line). I then interrupted the reset conductor path at height D5 with a knife (red line). 
-![](https://github.com/Elektrofix-OL/IR-reading-head-for-SmartMeter-V2/blob/main/pictures/IMG_0497m.JPG)
-Under pictures you can see a few more photos of the assembled circuit board block. The circuit boards were soldered together with a pin conductor provided by the shild.
-You can find the files for a 3D printer under https://www.thingiverse.com/thing:5884337
+![](https://github.com/Elektrofix-OL/IR-reading-head-for-SmartMeter-V2/blob/main/pictures/IMG_0497m.jpg)
+So that the reset button does not break off the circuit board with too much pressure, I reinforced it with a piece of PLA, which is stuck between the button and the circuit board.
+![](https://github.com/Elektrofix-OL/IR-reading-head-for-SmartMeter-V2/blob/main/pictures/IMG_0490.JPG)
+Under https://github.com/Elektrofix-OL/IR-reading-head-for-SmartMeter-V2/tree/main/pictures you can see a few more photos of the assembled circuit board block. The circuit boards were soldered together with a pin conductor provided by the shild.
 ![](https://github.com/Elektrofix-OL/IR-reading-head-for-SmartMeter-V2/blob/main/pictures/Housing.JPG)
+You can find the files for a 3D printer under https://www.thingiverse.com/thing:5884337
 
 # Software
 
