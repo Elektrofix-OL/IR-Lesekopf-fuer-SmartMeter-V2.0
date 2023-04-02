@@ -10,6 +10,7 @@ Now I have developed the whole thing further, here is the update:
 
 Basically it's very simple. The phototransitor (SFH 229) is connected between RX and GND and gets a pull-up resistor of 1200 ohms to 3.3V. The IR-LED with a wavelength of 880nm is connected directly between 3.3V and TX with a 180 ohm series resistor.
 The 10uF capacitor is switched between 3.3V and GND and is only used to support the supply voltage when data is being transmitted.
+List of parts: https://www.reichelt.de/my/2042096
 
 # Housing images
 I changed the case a bit from back then, it's smaller and has the small pushrod on the side to be able to press the reset button. The reset button was modified by me, that is, if it is pressed now, the display switches on and off. I was able to achieve this by making a bridge between the reset button trace and D7 (green line). I then interrupted the reset conductor path at height D5 with a knife (red line). 
